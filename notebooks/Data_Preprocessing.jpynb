@@ -1,0 +1,4 @@
+import yfinance as yf
+ticker = 'MSFT'
+df_MSFT = yf.download(ticker)
+df_MSFT
